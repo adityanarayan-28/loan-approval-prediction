@@ -1,0 +1,62 @@
+{
+  "best_model": "Random Forest",
+  "features": [
+    "Gender",
+    "Married",
+    "Dependents",
+    "Education",
+    "Self_Employed",
+    "Property_Area",
+    "ApplicantIncome",
+    "CoapplicantIncome",
+    "LoanAmount",
+    "Loan_Amount_Term",
+    "Credit_History"
+  ],
+  "numeric_features": [
+    "ApplicantIncome",
+    "CoapplicantIncome",
+    "LoanAmount",
+    "Loan_Amount_Term",
+    "Credit_History"
+  ],
+  "categorical_features": [
+    "Gender",
+    "Married",
+    "Dependents",
+    "Education",
+    "Self_Employed",
+    "Property_Area"
+  ],
+  "target": "Loan_Status",
+  "labels": {
+    "Y": "Likely approved",
+    "N": "Likely not approved"
+  },
+  "dataset_note": "Synthetic demonstration data generated for academic practice; not real banking data.",
+  "test_rows": 130,
+  "train_rows": 520,
+  "metrics": [
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.7615384615384615,
+      "Precision (approved)": 0.8202247191011236,
+      "Recall (approved)": 0.8295454545454546,
+      "F1 (approved)": 0.8248587570621468
+    },
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.7461538461538462,
+      "Precision (approved)": 0.8235294117647058,
+      "Recall (approved)": 0.7954545454545454,
+      "F1 (approved)": 0.8092485549132948
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.7076923076923077,
+      "Precision (approved)": 0.7906976744186046,
+      "Recall (approved)": 0.7727272727272727,
+      "F1 (approved)": 0.7816091954022989
+    }
+  ]
+}

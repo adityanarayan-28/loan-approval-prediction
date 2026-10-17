@@ -1,0 +1,10 @@
+Selected model: Random Forest\n\n              precision    recall  f1-score   support
+
+           N       0.63      0.62      0.63        42
+           Y       0.82      0.83      0.82        88
+
+    accuracy                           0.76       130
+   macro avg       0.73      0.72      0.73       130
+weighted avg       0.76      0.76      0.76       130
+\nConfusion matrix (rows=true [N,Y], columns=predicted [N,Y]):\n[[26 16]
+ [15 73]]

@@ -1,0 +1,4 @@
+MODEL COMPARISON (held-out test set)\n              Model  Accuracy  Precision (approved)  Recall (approved)  F1 (approved)
+      Random Forest    0.7615                0.8202             0.8295         0.8249
+Logistic Regression    0.7462                0.8235             0.7955         0.8092
+      Decision Tree    0.7077                0.7907             0.7727         0.7816\n\nNOTE: This is synthetic demonstration data, not real-world lending performance.\n

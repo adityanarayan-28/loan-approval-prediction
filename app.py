@@ -7,8 +7,8 @@ import streamlit as st
 
 st.set_page_config(page_title="Loan Approval Prediction", page_icon="🏦", layout="wide")
 ROOT = Path(__file__).resolve().parent
-MODEL_FILE = ROOT / "models" / "loan_model.pkl"
-META_FILE = ROOT / "models" / "model_metadata.json"
+MODEL_FILE = ROOT / "loan_model.pkl"
+META_FILE = ROOT / "model_metadata.json"
 
 @st.cache_resource
 def load_model(path):
